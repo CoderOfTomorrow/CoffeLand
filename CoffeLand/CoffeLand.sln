@@ -7,13 +7,15 @@ Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "CoffeLand", "CoffeLand.cspr
 EndProject
 Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "CoffeLand.Adapter", "..\CoffeLand.Adapter\CoffeLand.Adapter.csproj", "{5A959034-B9EE-4809-BC52-4F19EFF8E059}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "CoffeLand.Bridge", "..\CoffeLand.Bridge\CoffeLand.Bridge.csproj", "{30D2557E-FCF5-4CF9-A99F-102C0EEFA1D0}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "CoffeLand.Bridge", "..\CoffeLand.Bridge\CoffeLand.Bridge.csproj", "{30D2557E-FCF5-4CF9-A99F-102C0EEFA1D0}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "CoffeLand.Decorator", "..\CoffeLand.Decorator\CoffeLand.Decorator.csproj", "{8C35C72D-E275-42A0-A5CF-BE1CAB681894}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "CoffeLand.Decorator", "..\CoffeLand.Decorator\CoffeLand.Decorator.csproj", "{8C35C72D-E275-42A0-A5CF-BE1CAB681894}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "CoffeLand.Facade", "..\CoffeLand.Facade\CoffeLand.Facade.csproj", "{76C50D5D-D955-4AED-9543-9852E089E581}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "CoffeLand.Facade", "..\CoffeLand.Facade\CoffeLand.Facade.csproj", "{76C50D5D-D955-4AED-9543-9852E089E581}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "CoffeLand.Proxy", "..\CoffeLand.Proxy\CoffeLand.Proxy.csproj", "{0EEE7A03-4A9A-4BA3-BA34-4A5091C36A01}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "CoffeLand.Proxy", "..\CoffeLand.Proxy\CoffeLand.Proxy.csproj", "{0EEE7A03-4A9A-4BA3-BA34-4A5091C36A01}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "CoffeLand.Composite", "..\CoffeLand.Composite\CoffeLand.Composite.csproj", "{5C118F50-20AA-415D-BDBF-D56E4E26CB88}"
 EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
@@ -45,6 +47,10 @@ Global
 		{0EEE7A03-4A9A-4BA3-BA34-4A5091C36A01}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{0EEE7A03-4A9A-4BA3-BA34-4A5091C36A01}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{0EEE7A03-4A9A-4BA3-BA34-4A5091C36A01}.Release|Any CPU.Build.0 = Release|Any CPU
+		{5C118F50-20AA-415D-BDBF-D56E4E26CB88}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{5C118F50-20AA-415D-BDBF-D56E4E26CB88}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{5C118F50-20AA-415D-BDBF-D56E4E26CB88}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{5C118F50-20AA-415D-BDBF-D56E4E26CB88}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE

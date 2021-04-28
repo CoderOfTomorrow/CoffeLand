@@ -8,6 +8,7 @@
   <ItemGroup>
     <ProjectReference Include="..\CoffeLand.Adapter\CoffeLand.Adapter.csproj" />
     <ProjectReference Include="..\CoffeLand.Bridge\CoffeLand.Bridge.csproj" />
+    <ProjectReference Include="..\CoffeLand.Composite\CoffeLand.Composite.csproj" />
     <ProjectReference Include="..\CoffeLand.Decorator\CoffeLand.Decorator.csproj" />
     <ProjectReference Include="..\CoffeLand.Facade\CoffeLand.Facade.csproj" />
     <ProjectReference Include="..\CoffeLand.Proxy\CoffeLand.Proxy.csproj" />

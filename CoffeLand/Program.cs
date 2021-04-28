@@ -97,20 +97,25 @@ namespace CoffeLand
             //newBridge.GetView();
             //Console.ReadKey();
 
-            /* View for Decorator Pattern  -- in progress..... */ 
+            /* View for Decorator Pattern   */
             //var newDecorator = new Decorator.View();
             //newDecorator.GetView();
             //Console.ReadKey();
 
-            /* View for ... Pattern */
-            var newFacade = new Facade.View();
-            newFacade.GetView();
-            Console.ReadKey();
+            /* View for Facade Pattern */
+            //var newFacade = new Facade.View();
+            //newFacade.GetView();
+            //Console.ReadKey();
 
-            /* View for ... Pattern -- in progress..... */
+            /* View for Proxy Pattern */
             //var newProxy = new Proxy.View();
             //newProxy.GetView();
             //Console.ReadKey();
+
+            /* View for Composite Pattern*/
+            var newComposite = new Composite.View();
+            newComposite.GetView();
+            Console.ReadKey();
 
         }
     }
